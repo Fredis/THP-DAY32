@@ -81,6 +81,17 @@
 	height: 60px;
 	margin-top: 30px;
 	margin-right: 100px;
+	transition-property: width height;
+  transition-duration: 0.2s;
+  transition-delay: 0s;
+	transition-transform: 0.2s;
+}
+
+.navbar-right img:hover
+{
+	width: 65px;
+	height: 65px;
+  transform: rotate(360deg);
 }
 
 .navbar a
