@@ -1,0 +1,187 @@
+/* BOUTON */
+
+.btn-grey
+{
+	width: 150px;
+	color: Black;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #eeeeee;
+	box-shadow: 2px 2px 5px lightgrey;
+}
+
+/* AVATAR */
+
+.avatar-large
+{
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px black;
+}
+
+.avatar-small
+{
+	width: 60px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px black;
+}
+
+/* NAVBAR */
+
+.navbar
+{
+	width: 100%;
+	height: 150px;
+	background-color: #393e46;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-logo
+{
+	width: 100px;
+	height: 150px;
+	margin-left: 50px;
+	line-height: 150px;
+}
+
+.navbar-logo img
+{
+	width: 100px;
+	margin-top: 20px;
+}
+
+.navbar-right
+{
+	width: 40%;
+	height: auto;
+	margin-right: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar-menu
+{
+	height: 20px;
+	margin-top: 50px;
+	padding: 0px;
+}
+
+.navbar-menu li
+{
+	display: inline;
+	margin-left: 50px;
+}
+
+.navbar-right img
+{
+	width: 60px;
+	height: 60px;
+	margin-top: 30px;
+	margin-right: 100px;
+}
+
+.navbar a
+{
+	font-size: 25px;
+	color: lightgrey;
+	text-decoration: none;
+}
+
+.navbar a:hover
+{
+	color: White;
+	text-decoration: underline;
+}
+
+/* DROPDOWN MENU WITH IMG */
+
+.dropdown
+{
+  position: relative;
+	display: inline-block;
+	height: 95px;
+}
+
+
+.dropdown-content
+{
+  display: none;
+  position: absolute;
+  background-color: #929aab;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px 0px 10px 10px;
+  margin: 0px;
+	z-index: 0;
+}
+
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+
+
+.dropdown-menu
+{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.dropdown-menu li
+{
+  margin: 20px;
+}
+
+.dropdown-menu a
+{
+  color: White;
+  font-size: 15px;
+}
+
+.dropdown-menu a:hover
+{
+  color: lightgrey;
+}
+
+/* CARD */
+
+.card-body {
+  padding: 1.5rem;
+  border: 1px solid grey;
+  height: auto;
+  text-align: justify;
+  width: 300px;
+  background-image: linear-gradient(#EEEEEE,#929AAB);
+}
+.card-title {
+  font-family: 'Comfortaa', cursive, 'Times New Roman', Times, serif;
+}
+.text-info {
+  font-weight: bold;
+}
+h6 {
+  font-size: 1rem;
+  font-family: 'Comfortaa', cursive, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: .5rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'Comfortaa', cursive, 'Times New Roman', Times, serif;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+  background-color: #393E46;
+}
+.card {
+  word-wrap: break-word;
+}
